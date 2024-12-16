@@ -1,0 +1,6 @@
+syntax = "proto3";
+package com.mydev.grpc;
+
+message HelloRequest {
+  string name = 1;
+}
